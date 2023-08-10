@@ -1,0 +1,8 @@
+servers:
+  - lobby
+  - hub1
+  - hub2
+hub-message: "&5TLobbyCommand &e> &aYou are connecting to the hub!"
+lobby-message: "&5TLobbyCommand &e> &bYou are connecting to the lobby!"
+hub-connected-message: "&5TLobbyCommand &e> &aYou have been connected to the hub!"
+lobby-connected-message: "&5TLobbyCommand &e> &bYou have been connected to the lobby!"

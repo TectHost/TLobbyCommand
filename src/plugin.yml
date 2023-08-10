@@ -1,0 +1,11 @@
+name: TLobbyCommand
+version: 1.0
+author: Mine_Alex
+main: minealex.tlobbycommand.TLobbyCommand
+api-version: 1.17
+
+commands:
+  hub:
+    description: Command hub
+  lobby:
+    description: Command lobby
