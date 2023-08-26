@@ -6,10 +6,10 @@ Simple hub &amp; lobby command
 - Multiple lobbys
 
 # Commands
-None
+- /tlc version
 
 # Permissions
-None
+- tlc.version
 
 # Dependencies
 - None
