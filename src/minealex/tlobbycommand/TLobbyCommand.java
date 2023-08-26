@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 import net.md_5.bungee.api.plugin.Plugin;
+import minealex.tlobbycommand.commands.Commands;
 import minealex.tlobbycommand.commands.Hub;
 import minealex.tlobbycommand.commands.Lobby;
 import net.md_5.bungee.config.Configuration;
@@ -24,6 +25,7 @@ public class TLobbyCommand extends Plugin {
         // Registrar los comandos
         getProxy().getPluginManager().registerCommand(this, new Hub(this));
         getProxy().getPluginManager().registerCommand(this, new Lobby(this));
+        getProxy().getPluginManager().registerCommand(this, new Commands(this));
         
         // Cargar la configuración desde config.yml
         loadConfig();
